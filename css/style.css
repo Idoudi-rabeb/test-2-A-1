@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.section {
+    padding: 20px;
+    width: 50%;
+}
+
+.general-info {
+    background-color: #eef1f5;
+}
+
+.contact-details {
+    background-color: #2a5d9f;
+    color: #fff;
+}
+
+form label, form input, form a {
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+}
+
+input[type="checkbox"] {
+    display: inline;
+    width: auto;
+}
+
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #45a049;
+}
